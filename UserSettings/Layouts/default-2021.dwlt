@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 712
-    y: 51
-    width: 1207
-    height: 988
+    x: 0
+    y: 43
+    width: 1920
+    height: 989
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1207
-    height: 938
+    width: 1920
+    height: 939
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 94
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 791
+    x: 1259
     y: 0
-    width: 416
-    height: 938
+    width: 661
+    height: 939
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -93,8 +93,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 194
-    height: 556
+    width: 309
+    height: 557
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -112,23 +112,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 556
-    width: 791
+    y: 557
+    width: 1259
     height: 382
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,8 +149,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1207
-    height: 988
+    width: 1920
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -174,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1207
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 968
-    width: 1207
+    y: 969
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 791
-    height: 938
+    width: 1259
+    height: 939
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 791
-    height: 556
+    width: 1259
+    height: 557
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 102
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,25 +260,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 194
+    x: 309
     y: 0
-    width: 597
-    height: 556
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+    width: 950
+    height: 557
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 3
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,10 +299,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1503
-    y: 81
-    width: 415
-    height: 917
+    x: 1259
+    y: 73
+    width: 660
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -385,10 +385,21 @@ MonoBehaviour:
       folders:
         keys:
         - Remote branches
+        - origin
         values:
         - path: Remote branches
           label: Remote branches
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -415,6 +426,26 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/HEAD
+        label: HEAD
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: Remote branches
         label: Remote branches
@@ -432,17 +463,17 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-01-22T18:15:12.868-06:00
+      updatedTimeString: 2023-01-22T19:40:50.699-06:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-01-22T18:14:14.581-06:00
+      updatedTimeString: 2023-01-22T19:40:50.677-06:00
       cacheType: 1
     currentBranch:
       name: master
-      tracking: 
+      tracking: origin/master
     currentRemote:
-      name: 
-      url: 
+      name: origin
+      url: https://github.com/LiquidMintLeaf/Unity-GitHub-Test.git
       login: 
       user: 
       host: 
@@ -450,25 +481,29 @@ MonoBehaviour:
       token: 
     localBranches:
     - name: master
-      tracking: 
-    remoteBranches: []
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/HEAD
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
-    commitMessage: 
+    commitMessage: Test Commit
     currentBranch: master
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
-        - 00000000000000006100000000000000
+        - 00000000000000001000000000000000
+        - 3e41869566a6b7846917bcd0da6223e3
+        - dd4914b06362ba14d9fc41a249a579ec
         values:
-        - path: ProjectSettings\GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -477,19 +512,112 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\GraphicsSettings.asset
-            fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
-            projectPath: ProjectSettings\GraphicsSettings.asset
+            path: 
+            fullPath: 
+            projectPath: 
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
+            workTreeStatus: 0
+        - path: Assets\Test PNG.png
+          label: Test PNG.png
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Test PNG.png
+            fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test PNG.png
+            projectPath: Assets\Test PNG.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Test Scene.unity
+          label: Test Scene.unity
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Test Scene.unity
+            fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test Scene.unity
+            projectPath: Assets\Test Scene.unity
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
         keys:
+        - Assets
         - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: ProjectSettings
           label: ProjectSettings
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -533,6 +661,96 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Test PNG.png
+        label: Test PNG.png
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Test PNG.png
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test PNG.png
+          projectPath: Assets\Test PNG.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Test PNG.png.meta
+        label: Test PNG.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Test PNG.png.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test PNG.png.meta
+          projectPath: Assets\Test PNG.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Test Scene.unity
+        label: Test Scene.unity
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Test Scene.unity
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test Scene.unity
+          projectPath: Assets\Test Scene.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Test Scene.unity.meta
+        label: Test Scene.unity.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Test Scene.unity.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test Scene.unity.meta
+          projectPath: Assets\Test Scene.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: ProjectSettings
         label: ProjectSettings
         level: 0
@@ -551,8 +769,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
+      - path: ProjectSettings\SceneTemplateSettings.json
+        label: SceneTemplateSettings.json
         level: 1
         isFolder: 0
         isContainer: 0
@@ -563,9 +781,99 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
+          path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        label: ShaderGraphSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ShaderGraphSettings.asset
+          projectPath: ProjectSettings\ShaderGraphSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -589,18 +897,60 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
+    - path: Assets\Test PNG.png
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test PNG.png
+      projectPath: Assets\Test PNG.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Test PNG.png.meta
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test PNG.png.meta
+      projectPath: Assets\Test PNG.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Test Scene.unity
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test Scene.unity
+      projectPath: Assets\Test Scene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Test Scene.unity.meta
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Test Scene.unity.meta
+      projectPath: Assets\Test Scene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\SceneTemplateSettings.json
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\SceneTemplateSettings.json
+      projectPath: ProjectSettings\SceneTemplateSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ShaderGraphSettings.asset
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ShaderGraphSettings.asset
+      projectPath: ProjectSettings\ShaderGraphSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 8 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-01-22T18:14:14.581-06:00
+      updatedTimeString: 2023-01-22T19:51:35.044-06:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-01-22T18:21:08.636-06:00
+      updatedTimeString: 2023-01-22T19:51:35.195-06:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -609,6 +959,30 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: bd982727db9141a21002a68c9359925523646f8b
+      mergeA: 
+      mergeB: 
+      authorName: LiquidMintLeaf
+      authorEmail: benjaminalofland@gmail.com
+      commitEmail: benjaminalofland@gmail.com
+      commitName: LiquidMintLeaf
+      summary: Initial Commit
+      description: 
+      timeString: 2023-01-22T19:31:20.000-06:00
+      commitTimeString: 2023-01-22T19:31:20.000-06:00
+      changes:
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 253b4f43f6c6e6b02f217599ee21518719859b9b
       mergeA: 
       mergeB: 
@@ -622,277 +996,277 @@ MonoBehaviour:
       commitTimeString: 2023-01-22T18:15:12.000-06:00
       changes:
       - path: .vsconfig
-        fullPath: C:\Unity Projects\GitHub Test\.vsconfig
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\.vsconfig
         projectPath: .vsconfig
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes.meta
         projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes\SampleScene.unity
         projectPath: Assets\Scenes\SampleScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes\SampleScene.unity.meta
         projectPath: Assets\Scenes\SampleScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings.meta
         projectPath: Assets\Settings.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
         projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
         projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Renderer2D.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Renderer2D.asset
         projectPath: Assets\Settings\Renderer2D.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Renderer2D.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Renderer2D.asset.meta
         projectPath: Assets\Settings\Renderer2D.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes.meta
         projectPath: Assets\Settings\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
         projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
         projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\UniversalRP.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\UniversalRP.asset
         projectPath: Assets\Settings\UniversalRP.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\UniversalRP.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\UniversalRP.asset.meta
         projectPath: Assets\Settings\UniversalRP.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\UniversalRenderPipelineGlobalSettings.asset
         projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
         projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: C:\Unity Projects\GitHub Test\Packages\manifest.json
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: C:\Unity Projects\GitHub Test\Packages\packages-lock.json
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\AudioManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\InputManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\MemorySettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NetworkManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\NetworkManager.asset
         projectPath: ProjectSettings\NetworkManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PresetManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\QualitySettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TagManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimeManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimelineSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimelineSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TimelineSettings.asset
         projectPath: ProjectSettings\TimelineSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\URPProjectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\URPProjectSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\URPProjectSettings.asset
         projectPath: ProjectSettings\URPProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VFXManager.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\XRSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\boot.config
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\boot.config
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\boot.config
         projectPath: ProjectSettings\boot.config
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
         projectPath: UserSettings\Layouts\default-2021.dwlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.settings
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\Search.settings
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Search.settings
         projectPath: UserSettings\Search.settings
         originalPath: 
         indexStatus: 4
@@ -910,33 +1284,57 @@ MonoBehaviour:
       commitTimeString: 2023-01-22T18:14:13.000-06:00
       changes:
       - path: .gitattributes
-        fullPath: C:\Unity Projects\GitHub Test\.gitattributes
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: C:\Unity Projects\GitHub Test\.gitignore
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\.gitignore
-        fullPath: C:\Unity Projects\GitHub Test\Assets\.gitignore
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\.gitignore
         projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-01-22T18:17:33.441-06:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-01-22T18:16:57.861-06:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: bd982727db9141a21002a68c9359925523646f8b
+        mergeA: 
+        mergeB: 
+        authorName: LiquidMintLeaf
+        authorEmail: benjaminalofland@gmail.com
+        commitEmail: benjaminalofland@gmail.com
+        commitName: LiquidMintLeaf
+        summary: Initial Commit
+        description: 
+        timeString: 2023-01-22T19:31:20.000-06:00
+        commitTimeString: 2023-01-22T19:31:20.000-06:00
+        changes:
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 253b4f43f6c6e6b02f217599ee21518719859b9b
         mergeA: 
         mergeB: 
@@ -950,277 +1348,277 @@ MonoBehaviour:
         commitTimeString: 2023-01-22T18:15:12.000-06:00
         changes:
         - path: .vsconfig
-          fullPath: C:\Unity Projects\GitHub Test\.vsconfig
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\.vsconfig
           projectPath: .vsconfig
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes.meta
           projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes\SampleScene.unity
           projectPath: Assets\Scenes\SampleScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Scenes\SampleScene.unity.meta
           projectPath: Assets\Scenes\SampleScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings.meta
           projectPath: Assets\Settings.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
           projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
           projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Renderer2D.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Renderer2D.asset
           projectPath: Assets\Settings\Renderer2D.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Renderer2D.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Renderer2D.asset.meta
           projectPath: Assets\Settings\Renderer2D.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes.meta
           projectPath: Assets\Settings\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
           projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
           projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\UniversalRP.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\UniversalRP.asset
           projectPath: Assets\Settings\UniversalRP.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\UniversalRP.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\Settings\UniversalRP.asset.meta
           projectPath: Assets\Settings\UniversalRP.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\UniversalRenderPipelineGlobalSettings.asset
           projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
           projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: C:\Unity Projects\GitHub Test\Packages\manifest.json
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: C:\Unity Projects\GitHub Test\Packages\packages-lock.json
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\AudioManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\InputManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\MemorySettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NetworkManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\NetworkManager.asset
           projectPath: ProjectSettings\NetworkManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PresetManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TagManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimeManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimelineSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimelineSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\TimelineSettings.asset
           projectPath: ProjectSettings\TimelineSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\URPProjectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\URPProjectSettings.asset
           projectPath: ProjectSettings\URPProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VFXManager.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\XRSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\boot.config
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\boot.config
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\ProjectSettings\boot.config
           projectPath: ProjectSettings\boot.config
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Layouts\default-2021.dwlt
           projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.settings
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\Search.settings
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\UserSettings\Search.settings
           projectPath: UserSettings\Search.settings
           originalPath: 
           indexStatus: 4
@@ -1238,311 +1636,53 @@ MonoBehaviour:
         commitTimeString: 2023-01-22T18:14:13.000-06:00
         changes:
         - path: .gitattributes
-          fullPath: C:\Unity Projects\GitHub Test\.gitattributes
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: C:\Unity Projects\GitHub Test\.gitignore
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\.gitignore
-          fullPath: C:\Unity Projects\GitHub Test\Assets\.gitignore
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\.gitignore
           projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: 2
     selectedEntry:
-      commitID: 253b4f43f6c6e6b02f217599ee21518719859b9b
+      commitID: 6f122e35cb979850b940f9f90e944978687ef22d
       mergeA: 
       mergeB: 
       authorName: LiquidMintLeaf
       authorEmail: benjaminalofland@gmail.com
       commitEmail: benjaminalofland@gmail.com
       commitName: LiquidMintLeaf
-      summary: Initial Project Commit
+      summary: Initial commit
       description: 
-      timeString: 2023-01-22T18:15:12.000-06:00
-      commitTimeString: 2023-01-22T18:15:12.000-06:00
+      timeString: 2023-01-22T18:14:13.000-06:00
+      commitTimeString: 2023-01-22T18:14:13.000-06:00
       changes:
-      - path: .vsconfig
-        fullPath: C:\Unity Projects\GitHub Test\.vsconfig
-        projectPath: .vsconfig
+      - path: .gitattributes
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitattributes
+        projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes.meta
-        projectPath: Assets\Scenes.meta
+      - path: .gitignore
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitignore
+        projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity
-        projectPath: Assets\Scenes\SampleScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity.meta
-        projectPath: Assets\Scenes\SampleScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings.meta
-        projectPath: Assets\Settings.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset
-        projectPath: Assets\Settings\Renderer2D.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset.meta
-        projectPath: Assets\Settings\Renderer2D.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes.meta
-        projectPath: Assets\Settings\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset
-        projectPath: Assets\Settings\UniversalRP.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset.meta
-        projectPath: Assets\Settings\UniversalRP.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset
-        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: C:\Unity Projects\GitHub Test\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: C:\Unity Projects\GitHub Test\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NetworkManager.asset
-        projectPath: ProjectSettings\NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimelineSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimelineSettings.asset
-        projectPath: ProjectSettings\TimelineSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\URPProjectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\URPProjectSettings.asset
-        projectPath: ProjectSettings\URPProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\boot.config
-        fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\boot.config
-        projectPath: ProjectSettings\boot.config
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\Layouts\default-2021.dwlt
-        projectPath: UserSettings\Layouts\default-2021.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: C:\Unity Projects\GitHub Test\UserSettings\Search.settings
-        projectPath: UserSettings\Search.settings
+      - path: Assets\.gitignore
+        fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\.gitignore
+        projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
@@ -1553,143 +1693,10 @@ MonoBehaviour:
       folders:
         keys:
         - Assets
-        - Assets\Scenes
-        - Assets\Settings
-        - Assets\Settings\Scenes
-        - Packages
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Settings
-          label: Settings
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Settings\Scenes
-          label: Scenes
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1733,8 +1740,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vsconfig
-        label: .vsconfig
+      - path: .gitattributes
+        label: .gitattributes
         level: 0
         isFolder: 0
         isContainer: 0
@@ -1745,9 +1752,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: .vsconfig
-          fullPath: C:\Unity Projects\GitHub Test\.vsconfig
-          projectPath: .vsconfig
+          path: .gitattributes
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\.gitignore
+          projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -1769,8 +1794,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        label: Scenes.meta
+      - path: Assets\.gitignore
+        label: .gitignore
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1781,927 +1806,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        label: SampleScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Scenes\SampleScene.unity.meta
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings.meta
-        label: Settings.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings.meta
-          projectPath: Assets\Settings.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings
-        label: Settings
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        label: Lit2DSceneTemplate.scenetemplate
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        label: Lit2DSceneTemplate.scenetemplate.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset
-        label: Renderer2D.asset
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Renderer2D.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset
-          projectPath: Assets\Settings\Renderer2D.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset.meta
-        label: Renderer2D.asset.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Renderer2D.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Renderer2D.asset.meta
-          projectPath: Assets\Settings\Renderer2D.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Scenes.meta
-        label: Scenes.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Scenes.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes.meta
-          projectPath: Assets\Settings\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Scenes
-        label: Scenes
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        label: URP2DSceneTemplate.unity
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        label: URP2DSceneTemplate.unity.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset
-        label: UniversalRP.asset
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\UniversalRP.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset
-          projectPath: Assets\Settings\UniversalRP.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset.meta
-        label: UniversalRP.asset.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\UniversalRP.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\Settings\UniversalRP.asset.meta
-          projectPath: Assets\Settings\UniversalRP.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        label: UniversalRenderPipelineGlobalSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset
-          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        label: UniversalRenderPipelineGlobalSettings.asset.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          fullPath: C:\Unity Projects\GitHub Test\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: C:\Unity Projects\GitHub Test\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: C:\Unity Projects\GitHub Test\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        label: NetworkManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TimelineSettings.asset
-        label: TimelineSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimelineSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\TimelineSettings.asset
-          projectPath: ProjectSettings\TimelineSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\URPProjectSettings.asset
-        label: URPProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\URPProjectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\URPProjectSettings.asset
-          projectPath: ProjectSettings\URPProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\boot.config
-        label: boot.config
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\boot.config
-          fullPath: C:\Unity Projects\GitHub Test\ProjectSettings\boot.config
-          projectPath: ProjectSettings\boot.config
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: C:\Unity Projects\GitHub Test\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
+          path: Assets\.gitignore
+          fullPath: C:\Unity Projects\Unity-GitHub-Test\Assets\.gitignore
+          projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
@@ -2724,7 +1831,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    detailsScroll: {x: 0, y: 173.99292}
+    detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
       gitPath: C:\Users\benja\AppData\Local\GitForUnity\git\cmd\git.exe
@@ -2733,22 +1840,22 @@ MonoBehaviour:
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-22T18:14:14.581-06:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
-    newRepositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/LiquidMintLeaf/Unity-GitHub-Test.git
     repositoryRemoteName: origin
-    repositoryRemoteUrl: 
+    repositoryRemoteUrl: https://github.com/LiquidMintLeaf/Unity-GitHub-Test.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: LiquidMintLeaf
-      gitEmail: benjaminalofland@gmail.com
-      newGitName: LiquidMintLeaf
-      newGitEmail: benjaminalofland@gmail.com
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-01-22T18:14:26.406-06:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -2777,13 +1884,13 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-22T18:14:14.581-06:00
+      updatedTimeString: 2023-01-22T19:40:50.677-06:00
       cacheType: 1
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-01-22T18:16:57.823-06:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
@@ -2796,30 +1903,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
+  hasRemote: 1
+  currentRemoteName: origin
   currentBranch: master
-  currentRemoteUrl: No remote configured
+  currentRemoteUrl: https://github.com/LiquidMintLeaf/Unity-GitHub-Test.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/LiquidMintLeaf/Unity-GitHub-Test.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-01-22T18:14:14.581-06:00
+    updatedTimeString: 2023-01-22T19:51:35.044-06:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-01-22T18:21:08.675-06:00
+    updatedTimeString: 2023-01-22T19:51:35.222-06:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-01-22T18:21:08.636-06:00
+    updatedTimeString: 2023-01-22T19:51:35.195-06:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2917,10 +2024,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 906
-    y: 81
-    width: 595
-    height: 535
+    x: 309
+    y: 73
+    width: 948
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2945,9 +2052,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 712
-    y: 637
-    width: 790
+    x: 0
+    y: 630
+    width: 1258
     height: 361
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2974,13 +2081,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Unity Projects\GitHub Test
+  m_LastProjectPath: C:\Unity Projects\Unity-GitHub-Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c700000
-    m_LastClickedID: 28732
+    m_SelectedIDs: 28cc0000
+    m_LastClickedID: 52264
     m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3009,7 +2116,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3036,7 +2143,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3053,7 +2160,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -3126,10 +2233,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 712
-    y: 81
-    width: 193
-    height: 535
+    x: 0
+    y: 73
+    width: 308
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3139,7 +2246,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3183,10 +2290,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1142
-    y: 81
-    width: 549
-    height: 535
+    x: 309
+    y: 73
+    width: 948
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3602,10 +2709,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 630
+    width: 1258
+    height: 361
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
