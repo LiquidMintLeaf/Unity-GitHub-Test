@@ -4,6 +4,28 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
+    bool Jump = false;
+
+    float TimeSinceJumpActivated = 0f;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+        {
+            Jump = true;
+            TimeSinceJumpActivated = 0f;
+        }
+        else
+        {
+            if (TimeSinceJumpActivated > 0.15f)
+            {
+                Jump = false;
+            }
+
+            TimeSinceJumpActivated = Mathf.Clamp(TimeSinceJumpActivated + Time.deltaTime, 0f, 1f);
+        }
+    }
+
     private void FixedUpdate()
     {
         Vector2 MovementVelocity = Vector2.zero;
@@ -21,28 +43,15 @@ public class PlayerControler : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown("space") || Input.GetKeyDown("w"))
-        {
-            foreach (Collider2D Collider in gameObject.GetComponentsInChildren<Collider2D>())
-            {
-                Collider.enabled = false;
-            }
-
-            if (Physics2D.Raycast(gameObject.transform.position, Vector2.down, 0.52f))
-            {
-                MovementVelocity.y = 10f;
-            }
-            /*            else
-                        {
-                            Debug.DrawRay(gameObject.transform.position, Vector3.down.normalized * 0.6f, Color.red, 2f);
-                        }*/
-
-            foreach (Collider2D Collider in gameObject.GetComponentsInChildren<Collider2D>())
-            {
-                Collider.enabled = true;
-            }
-        }
-
         gameObject.GetComponent<Rigidbody2D>().velocity = MovementVelocity;
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (Jump)
+        {
+            Jump = false;
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(gameObject.GetComponent<Rigidbody2D>().velocity.x, 15f);
+        }
     }
 }
